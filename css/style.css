@@ -1007,7 +1007,7 @@ header {
   overflow: hidden;
   display: table-cell;
   width: 40%;
-  background: url(http://placehold.it/782x620) center center no-repeat;
+  background: url(./../images/our-spec-img.jpg) center center no-repeat;
   background-size: cover;
 }
 
@@ -1113,7 +1113,7 @@ header {
   overflow: hidden;
   display: table-cell;
   width: 50%;
-  background: url(http://placehold.it/959x741) center center no-repeat;
+  background: url(./../images/bc-webdeg.jpg) center center no-repeat;
   background-size: cover;
   vertical-align: middle;
 }
@@ -1820,13 +1820,13 @@ header {
 }
 
 .bg1 {
-  background-image: url(http://placehold.it/1920x1118);
+  background-image: url(./../images/num-bc.jpg);
 }
 
 /* ============================= main menu ====================== */
 .navbar_ {
   margin: 0;
-  margin-top: 24px;
+  margin-top: 13px;
   padding: 0;
   background: none;
   border: none;
