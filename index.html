@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+  <head>
+    <title>WebPrism - Digital Services</title>
+    <meta charset="utf-8" />
+
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/main.css" class="color-switcher-link" />
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+      <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!--[if lt IE 9]>
+      <div class="bg-danger text-center">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="http://browsehappy.com/" class="color-main"
+          >upgrade your browser</a
+        >
+        to improve your experience.
+      </div>
+    <![endif]-->
+
+    <div class="preloader">
+      <div class="preloader_image"></div>
+    </div>
+
+    <!-- Unyson messages modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+      <div class="fw-messages-wrap ls p-normal">
+        <!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+        <!--
+		<ul class="list-unstyled">
+			<li>Message To User</li>
+		</ul>
+		-->
+      </div>
+    </div>
+    <!-- eof .modal -->
+
+    <!-- wrappers for visual page editor and boxed version of template -->
+    <div id="canvas">
+      <div id="box_wrapper">
+        <!-- template sections -->
+
+        <!--topline section visible only on small screens|-->
+        <div class="header_absolute s-pb-30">
+          <header class="page_header ds">
+            <div class="container-fluid">
+              <div class="row align-items-center">
+                <div class="col-xl-2 col-lg-3 col-11">
+                  <a href="./" class="logo text-center">
+                    <img src="images/logo.svg" alt="" />
+                  </a>
+                </div>
+                <div class="col-xl-8 col-lg-6 col-1 text-sm-center">
+                  <!-- main nav start -->
+                  <nav class="top-nav">
+                    <ul class="nav sf-menu">
+                      <li>
+                        <a href="index.html">Home</a>
+                      </li>
+
+                      <li>
+                        <a href="#about">About</a>
+                      </li>
+
+                      <li>
+                        <a href="#services">Services</a>
+                      </li>
+
+                      <li>
+                        <a href="#steps">Our Approach</a>
+                      </li>
+
+                      <!-- contacts -->
+                      <li>
+                        <a href="#contact">Contact Us</a>
+                      </li>
+                      <!-- eof contacts -->
+                    </ul>
+                  </nav>
+                  <!-- eof main nav -->
+                </div>
+                <div
+                  class="col-xl-2 col-lg-3 text-lg-left text-xl-right d-none d-lg-block"
+                ></div>
+              </div>
+            </div>
+            <!-- header toggler -->
+            <span class="toggle_menu">
+              <span></span>
+            </span>
+          </header>
+        </div>
+        <span class="toggle_menu_side header-slide">
+          <span></span>
+        </span>
+
+        <section class="page_slider main_slider">
+          <div class="flexslider" data-nav="true" data-dots="false">
+            <ul class="slides">
+              <li class="ds text-center slide1">
+                <span class="flexslider-overlay"></span>
+                <img src="images/slide1.jpg" alt="" />
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12 itro_slider">
+                      <div class="intro_layers_wrapper">
+                        <div class="intro_layers">
+                          <div class="intro_layer" data-animation="fadeIn">
+                            <p class="text-uppercase intro_after_featured_word">
+                              welcome to
+                            </p>
+                          </div>
+
+                          <div class="intro_layer" data-animation="slideRight">
+                            <h2 class="text-uppercase intro_featured_word">
+                              WEBPRISM
+                            </h2>
+                          </div>
+                          <div class="intro_layer" data-animation="fadeIn">
+                            <h3 class="intro_before_featured_word">
+                              <span class="color-main2">Web Development</span>,
+                              <span class="color-main3">Marketing</span> &
+                              <span class="color-main4">Branding</span>
+                            </h3>
+                          </div>
+                          <div
+                            class="intro_layer page-bottom"
+                            data-animation="expandUp"
+                          >
+                            <a class="btn btn-maincolor" href="#contact"
+                              >Contact Us</a
+                            >
+                          </div>
+                        </div>
+                        <!-- eof .intro_layers -->
+                      </div>
+                      <!-- eof .intro_layers_wrapper -->
+                    </div>
+                    <!-- eof .col-* -->
+                  </div>
+                  <!-- eof .row -->
+                </div>
+                <!-- eof .container -->
+              </li>
+              <li class="ds text-center slide2">
+                <span class="flexslider-overlay"></span>
+                <img src="images/slide2.jpg" alt="" />
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12 itro_slider">
+                      <div class="intro_layers_wrapper">
+                        <div class="intro_layers">
+                          <div class="intro_layer" data-animation="fadeIn">
+                            <h3
+                              class="text-lowercase intro_before_featured_word"
+                            >
+                              Online
+                            </h3>
+                          </div>
+                          <div class="intro_layer" data-animation="fadeIn">
+                            <h2 class="text-uppercase intro_featured_word">
+                              Marketing
+                            </h2>
+                          </div>
+                          <div class="intro_layer" data-animation="pullDown">
+                            <p class="text-uppercase intro_after_featured_word">
+                              Solutions
+                            </p>
+                          </div>
+                          <div
+                            class="intro_layer page-bottom"
+                            data-animation="expandUp"
+                          >
+                            <a class="btn btn-maincolor" href="#about"
+                              >About Us</a
+                            >
+                          </div>
+                        </div>
+                        <!-- eof .intro_layers -->
+                      </div>
+                      <!-- eof .intro_layers_wrapper -->
+                    </div>
+                    <!-- eof .col-* -->
+                  </div>
+                  <!-- eof .row -->
+                </div>
+                <!-- eof .container -->
+              </li>
+              <li class="ds text-center slide3">
+                <span class="flexslider-overlay"></span>
+
+                <img src="images/slide3.jpg" alt="" />
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12 itro_slider">
+                      <div class="intro_layers_wrapper">
+                        <div class="intro_layers">
+                          <div class="intro_layer" data-animation="fadeInRight">
+                            <h2
+                              class="text-uppercase intro_featured_word light"
+                            >
+                              Modern
+                            </h2>
+                          </div>
+                          <div class="intro_layer" data-animation="fadeIn">
+                            <h2 class="text-uppercase intro_featured_word bold">
+                              Marketing & design
+                            </h2>
+                          </div>
+                          <div class="intro_layer" data-animation="fadeIn">
+                            <h2 class="text-uppercase intro_featured_word">
+                              That works
+                            </h2>
+                          </div>
+
+                          <div
+                            class="intro_layer page-bottom"
+                            data-animation="expandUp"
+                          >
+                            <a class="btn btn-maincolor" href="#steps"
+                              >The process <b>Step by Step</b></a
+                            >
+                          </div>
+                        </div>
+                        <!-- eof .intro_layers -->
+                      </div>
+                      <!-- eof .intro_layers_wrapper -->
+                    </div>
+                    <!-- eof .col-* -->
+                  </div>
+                  <!-- eof .row -->
+                </div>
+                <!-- eof .container -->
+              </li>
+            </ul>
+          </div>
+          <!-- eof flexslider -->
+          <div class="flexslider-bottom d-none d-xl-block">
+            <a href="#about" class="mouse-button animated floating"></a>
+          </div>
+        </section>
+        <div class="divider-10 d-block d-sm-none"></div>
+        <section class="s-pt-30 s-pt-lg-50 s-pt-xl-25 ls about-home" id="about">
+          <div class="divider-5 d-none d-xl-block"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                <div class="main-content text-center">
+                  <div class="img-wrap text-center">
+                    <img src="img/vertical_line.png" alt="" />
+                    <div class="divider-35"></div>
+                  </div>
+                  <h5>
+                    Your <b style="color: #ff497c;">Partner</b> in Creating Impactful Web Experiences
+                  </h5>
+				  <p>
+					Building an <b style="color: #ff497c;">online presence</b> is simple, but achieving <b style="color: #ff497c;">real success</b> requires more than a good-looking site. You need a strategy that combines <b style="color: #ff497c;">stunning design</b>, <b style="color: #ff497c;">user experience</b>, and powerful <b style="color: #ff497c;">marketing solutions</b>. With our focus on <b style="color: #ff497c;">conversion-driven web design</b> and <b style="color: #ff497c;">lead generation</b>, your path to <b style="color: #ff497c;">online growth</b> is guaranteed.
+				  </p>
+                  <div class="divider-30"></div>
+                  <div class="img-wrap text-center">
+                    <img src="img/vertical_line.png" style="margin-bottom: 5px;" alt="" />
+                  </div>
+                
+                  <div class="img-wrap text-center">
+                    <img src="img/vertical_line.png" alt="" />
+                  </div>
+                  <div class="divider-10 d-none d-xl-block"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="divider-10 d-block d-sm-none"></div>
+        </section>
+
+        <section
+          class="s-pt-30 s-pb-3 service-item2 ls animate"
+          id="services"
+          data-animation="fadeInUp"
+        >
+          <div class="container">
+            <div class="row c-mb-50 c-mb-md-60">
+              <div class="d-none d-lg-block divider-20"></div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="vertical-item text-center">
+                  <div class="item-media">
+                    <img src="images/service/service_icon_1-1.png" alt="" />
+                  </div>
+                  <div class="item-content">
+                    <h6>
+                      <a href="service-single1.html">Marketing</a>
+                    </h6>
+
+                    <p>
+                      We help you get noticed by putting your business in front
+                      of the right people. Whether it's through social media or
+                      emails, our strategies connect you with potential
+                      customers and boost your growth.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- .col-* -->
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="vertical-item text-center">
+                  <div class="item-media">
+                    <img src="images/service/service_icon_2-1.png" alt="" />
+                  </div>
+                  <div class="item-content">
+                    <h6>
+                      <a href="service-single1.html">Development</a>
+                    </h6>
+
+                    <p>
+                      Got a unique idea for your website? We build custom tools
+                      and features that make your site do exactly what you need.
+                      From booking systems to customer portals, we bring your
+                      vision to life.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- .col-* -->
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="vertical-item text-center">
+                  <div class="item-media">
+                    <img src="images/service/service_icon_3-1.png" alt="" />
+                  </div>
+                  <div class="item-content">
+                    <h6>
+                      <a href="service-single1.html">Web Design</a>
+                    </h6>
+
+                    <p>
+                      Your website is like your shopfront. We design clean,
+                      attractive, and easy-to-use sites that invite visitors in
+                      and encourage them to become customers, all while
+                      reflecting your brand’s identity.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- .col-* -->
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="vertical-item text-center">
+                  <div class="item-media">
+                    <img src="images/service/service_icon_4-1.png" alt="" />
+                  </div>
+                  <div class="item-content">
+                    <h6>
+                      <a href="service-single1.html">SEO Optimization</a>
+                    </h6>
+
+                    <p>
+                      We make sure your business is easy to find online. By
+                      optimizing your website, we help you show up at the top of
+                      search results, just like being first in a phone
+                      directory.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- .col-* -->
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="vertical-item text-center">
+                  <div class="item-media">
+                    <img src="images/service/service_icon_5-1.png" alt="" />
+                  </div>
+                  <div class="item-content">
+                    <h6>
+                      <a href="service-single1.html">Ecommerce</a>
+                    </h6>
+
+                    <p>
+                      We create easy-to-use online stores that help you sell
+                      products just like a smooth in-person shopping experience.
+                      As your business grows, your store can grow with it.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- .col-* -->
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="vertical-item text-center">
+                  <div class="item-media">
+                    <img src="images/service/service_icon_6-1.png" alt="" />
+                  </div>
+                  <div class="item-content">
+                    <h6>
+                      <a href="service-single1.html">Branding</a>
+                    </h6>
+
+                    <p>
+                      Branding is your business’s personality. We help you
+                      create a consistent and memorable identity so you always
+                      make a great impression on customers.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- .col-* -->
+            </div>
+            <div class="pink-line text-center">
+              <img src="img/pink_line_big.png" alt="" />
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="s-pt-100 s-pt-lg-130 ds process-part skew_right s-parallax top_white_line_big overflow-visible"
+          id="steps"
+        >
+          <div class="container">
+            <div class="divider-65"></div>
+            <div class="row align-items-center c-mb-20 c-mb-lg-60">
+              <div class="col-12 col-lg-4">
+                <div class="step-left-part text-right">
+                  <h2 class="step-title">
+                    <span class="color-main">01</span>Strategy
+                  </h2>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4">
+                <div class="step-center-part text-center">
+                  <img src="images/step_img_1.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-12 col-lg-4">
+                <div class="step-right-part">
+                  <p class="step-text">
+                    We take a <b style="color: #ff497c">deep dive</b> into your
+                    competition and
+                    <b style="color: #ff497c">target audience</b> to understand
+                    what works in your industry. From there, we create a
+                    <b style="color: #ff497c">strategy</b> to design a website
+                    that not only looks great but is also positioned to help you
+                    <b style="color: #ff497c">stand out</b> and
+                    <b style="color: #ff497c">succeed</b>.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row align-items-center right c-mb-20 c-mb-lg-60">
+              <div class="col-12 col-lg-4 order-lg-3">
+                <div class="step-left-part">
+                  <h2 class="step-title color1">
+                    <span class="color-main2">02</span>Design
+                  </h2>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 order-lg-2">
+                <div class="step-center-part text-center">
+                  <img src="images/step_img_2.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 order-lg-1 text-right">
+                <div class="step-right-part">
+                  <p class="step-text">
+                    From the <b style="color: #a0ce4e">color scheme</b> to the
+                    <b style="color: #a0ce4e">layout</b>, sitemap, and overall
+                    style, we bring your brand’s vision to life. Our team
+                    creates a
+                    <b style="color: #a0ce4e">one-of-a-kind design</b> that
+                    reflects your business, ensuring your website is both
+                    <b style="color: #a0ce4e">visually stunning</b> and
+                    functional.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row align-items-center c-mb-20 c-mb-lg-60">
+              <div class="col-12 col-lg-4">
+                <div class="step-left-part text-right part3">
+                  <h2 class="step-title">
+                    <span class="color-main3">03</span>Develop
+                  </h2>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4">
+                <div class="step-center-part text-center">
+                  <img src="images/step_img_3.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-12 col-lg-4">
+                <div class="step-right-part">
+                  <p class="step-text">
+                    We <b style="color: #00bea3">transform your ideas</b> into a
+                    fully functional website. Throughout the development
+                    process, your site will be hosted on a
+                    <b style="color: #00bea3">development server</b>, allowing
+                    you to <b style="color: #00bea3">track progress</b> and
+                    provide feedback as it takes shape.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row align-items-center right c-mb-20 c-mb-lg-60">
+              <div class="col-12 col-lg-4 order-lg-3">
+                <div class="step-left-part part4">
+                  <h2 class="step-title color1">
+                    <span class="color-main4">04</span>Support
+                  </h2>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 order-lg-2">
+                <div class="step-center-part text-center last">
+                  <img src="images/step_img_2.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 order-lg-1 text-right">
+                <div class="step-right-part">
+                  <p class="step-text">
+                    When your website is
+                    <b style="color: #f1894c">ready to launch</b>, we don’t stop
+                    there. We’ll be by your side, providing
+                    <b style="color: #f1894c">continuous support</b> with design
+                    updates, marketing strategies, and maintenance to keep your
+                    site <b style="color: #f1894c">running smoothly</b> and
+                    <b style="color: #f1894c">growing over time</b>.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="divider-10 d-block d-sm-none"></div>
+            <div class="img-wrap text-center">
+              <img src="img/vertical_line2.png" alt="" />
+            </div>
+            <div class="white-button text-center">
+              <a class="btn white-btn" href="#">Back to top</a>
+            </div>
+            <div class="divider-30 d-none d-xl-block"></div>
+          </div>
+        </section>
+
+        <section class="s-pt-130 s-pt-md-50 ls text-section">
+          <div class="divider-30"></div>
+          <div class="container">
+            <div class="row">
+              <div
+                class="text-center col-md-12 justify-content-center text-block"
+              >
+                <img src="img/vertical_line.png" alt="" />
+                <div class="divider-35"></div>
+                <div class="content">
+                  <h1>
+                    Get in touch with us
+                    <br />
+                    to discuss your project
+                  </h1>
+                  <p>
+                    We’ll be more than happy to provide you with a
+                    <b>free</b> consultation
+                  </p>
+                  <div class="divider-30"></div>
+                </div>
+                <img src="img/vertical_line.png" alt="" />
+
+                <div class="img-wrap overflow-visible">
+                  <img src="img/vertical_line.png" alt="" />
+                  <div class="divider-5 d-none d-xl-block"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="ls s-pt-30 s-pt-lg-75 s-pb-130 contact" id="contact">
+          <div class="container">
+            <div class="row c-gutter-60">
+              <div class="divider-40 d-none d-xl-block"></div>
+
+              <div class="col-lg-8">
+                <form
+                  class="contact-form c-mb-20 c-gutter-15"
+                  method="post"
+                  action="/"
+                >
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h4>Send us a message here:</h4>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="form-group has-placeholder">
+                        <label for="name"
+                          >Full Name
+                          <span class="required">*</span>
+                        </label>
+                        <input
+                          type="text"
+                          aria-required="true"
+                          size="30"
+                          value=""
+                          name="name"
+                          id="name"
+                          class="form-control"
+                          placeholder="Full Name"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-sm-12">
+                      <div class="form-group has-placeholder">
+                        <label for="phone">Phone </label>
+                        <input
+                          type="text"
+                          size="30"
+                          value=""
+                          name="phone"
+                          id="phone"
+                          class="form-control"
+                          placeholder="Phone Number (Optional)"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="form-group has-placeholder">
+                        <label for="email"
+                          >Email address
+                          <span class="required">*</span>
+                        </label>
+                        <input
+                          type="email"
+                          aria-required="true"
+                          size="30"
+                          value=""
+                          name="email"
+                          id="email"
+                          class="form-control"
+                          placeholder="Email Address"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="form-group has-placeholder">
+                        <label for="message">Message</label>
+                        <textarea
+                          aria-required="true"
+                          rows="6"
+                          cols="45"
+                          name="message"
+                          id="message"
+                          class="form-control"
+                          placeholder="Your Message"
+                        ></textarea>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="form-group has-placeholder">
+                      <button
+                        type="submit"
+                        id="contact_form_submit"
+                        name="contact_submit"
+                        class="btn btn-maincolor btn-block"
+                      >
+                        Send Message
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <!--.col-* -->
+              <div class="col-lg-4">
+                <div>
+                  <h4 class="header">Our Contact Info</h4>
+
+                  <div class="media mb-10">
+                    <div class="icon-styled color-main fs-16">
+                      <i class="fa fa-map-marker"></i>
+                    </div>
+
+                    <div class="media-body">
+                      <p>London, UK</p>
+                    </div>
+                  </div>
+
+                  <div class="media mb-10">
+                    <div class="icon-styled color-main fs-16">
+                      <i class="fa fa-phone"></i>
+                    </div>
+
+                    <div class="media-body">
+                      <p>+44 (0) 7 947 953 956</p>
+                    </div>
+                  </div>
+
+                  <div class="media mb-40">
+                    <div class="icon-styled color-main fs-16">
+                      <i class="fa fa-pencil"></i>
+                    </div>
+
+                    <div class="media-body">
+                      <p class="color-dark">contact@webprism.co.uk</p>
+                    </div>
+                  </div>
+
+                  <h6><b style="color: #ff497c">Hi</b> There!</h6>
+                  <p>
+                    Thank you for visiting our site and showing interest in
+                    <b style="color: #ff497c">WebPrism</b>! <br />We're
+                    <b style="color: #ff497c">excited</b> to hear from you and
+                    are here to help with any
+                    <b style="color: #ff497c">questions</b> or
+                    <b style="color: #ff497c">project ideas</b> you have.
+                    <br />We do our best to respond as quickly as possible
+                    because we know your time is
+                    <b style="color: #ff497c">valuable</b>. <br />Feel free to
+                    share any details, and we’ll get back to you with
+                    <b style="color: #ff497c">solutions tailored</b> to your
+                    needs. <br />We look forward to
+                    <b style="color: #ff497c">connecting</b> with you!
+                  </p>
+                </div>
+              </div>
+              <!--.col-* -->
+              <div class="divider-60 d-none d-xl-block"></div>
+            </div>
+          </div>
+        </section>
+
+        <footer
+          class="page_footer corner-footer ds s-pt-30 s-pb-0 s-pb-lg-10 s-pb-xl-50 c-gutter-60 s-parallax"
+        >
+          <div class="container">
+            <div class="container">
+              <div class="row">
+                <div class="divider-20 d-none d-xl-block"></div>
+                <div
+                  class="col-md-12 mt-4 text-center animate"
+                  data-animation="fadeInUp"
+                >
+                  <img
+                    class=""
+                    src="images/footer-logo.svg"
+                    style="height: 100px; align-self: center"
+                    alt=""
+                  />
+                  <!-- <div class="widget widget_social_buttons">
+									<a href="http://www.facebook.com/#" class="fa fa-facebook color-icon" title="facebook"></a>
+									<a href="http://www.twitter.com/#" class="fa fa-twitter color-icon" title="twitter"></a>
+									<a href="http://www.plus.google.com/#" class="fa fa-google color-icon" title="google"></a>
+									<a href="http://www.youtube.com/#" class="fa fa-youtube-play color-icon" title="youtube-play"></a>
+									<a href="http://www.linkedin.com/#" class="fa fa-linkedin color-icon" title="linkedin"></a>
+								</div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <section
+          class="page_copyright light-copy cs s-py-20 s-py-lg-5 s-parallax copyright"
+        >
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="divider-20 d-none d-lg-block"></div>
+              <div class="col-md-12 text-center">
+                <p>
+                  &copy; Copyright
+                  <span class="copyright_year">2024</span> WebPrism - All Rights
+                  Reserved
+                </p>
+              </div>
+              <div class="divider-20 d-none d-lg-block"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- eof #box_wrapper -->
+    </div>
+    <!-- eof #canvas -->
+
+    <script src="js/compressed.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
